@@ -6,11 +6,11 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
 	<string>com.apple.dt.unit.manualApplication</string>
-	<key>Ancestors</key>
-	<array>
+	 <key>Ancestors</key>
+    	<array>
 		<string>com.apple.dt.unit.storyboardApplication</string>
-		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
-	</array>
+      		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+   	 </array>
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
@@ -27,7 +27,8 @@
 				<key>Objective-C</key>
 				<dict/>
 				<key>Swift</key>
-				<dict/>
+				<dict>
+				</dict>
 			</dict>
 		</dict>
 	</array>
@@ -103,6 +104,7 @@
 				<string>Macros</string>
 			</array>
 		</dict>
+		
 		<key>Expand/Network/network.md</key>
 		<dict>
 			<key>Path</key>
@@ -164,6 +166,7 @@
 			<key>SortOrder</key>
 			<integer>99</integer>
 		</dict>
+		<key>SupportingFiles/Info.plist</key>
 		<key>SupportingFiles/Prefix.pch</key>
 		<dict>
 			<key>Path</key>
@@ -186,20 +189,8 @@
 		<string>Expand/Tool/NSStringUtil.m</string>
 		<string>Vender/vender.md</string>
 		<string>Resource/Image/image.md</string>
-		<string>Main/main.md</string>
+		<string>SupportingFiles/Info.plist</string>
 		<string>SupportingFiles/Prefix.pch</string>
-	</array>
-	<key>Targets</key>
-	<array>
-		<dict>
-			<key>SharedSettings</key>
-			<dict>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>___PACKAGENAME___/SupportingFiles/Prefix.pch</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-			</dict>
-		</dict>
 	</array>
 </dict>
 </plist>
